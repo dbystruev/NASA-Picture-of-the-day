@@ -12,6 +12,8 @@
 		69FED3362194A6CA00A718AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FED3342194A6CA00A718AC /* Main.storyboard */; };
 		69FED3382194A6D300A718AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FED3372194A6D300A718AC /* Assets.xcassets */; };
 		69FED33B2194A6D300A718AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FED3392194A6D300A718AC /* LaunchScreen.storyboard */; };
+		69FED3432194AB6000A718AC /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FED3422194AB6000A718AC /* PhotoInfo.swift */; };
+		69FED3452194BA0600A718AC /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FED3442194BA0600A718AC /* PhotoInfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		69FED3372194A6D300A718AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FED33A2194A6D300A718AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69FED33C2194A6D300A718AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FED3422194AB6000A718AC /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		69FED3442194BA0600A718AC /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				69FED3302194A6CA00A718AC /* AppDelegate.swift */,
 				69FED3322194A6CA00A718AC /* ViewController.swift */,
+				69FED3442194BA0600A718AC /* PhotoInfoController.swift */,
+				69FED3422194AB6000A718AC /* PhotoInfo.swift */,
 				69FED3342194A6CA00A718AC /* Main.storyboard */,
 				69FED3372194A6D300A718AC /* Assets.xcassets */,
 				69FED3392194A6D300A718AC /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FED3432194AB6000A718AC /* PhotoInfo.swift in Sources */,
 				69FED3332194A6CA00A718AC /* ViewController.swift in Sources */,
+				69FED3452194BA0600A718AC /* PhotoInfoController.swift in Sources */,
 				69FED3312194A6CA00A718AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
